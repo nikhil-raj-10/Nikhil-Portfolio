@@ -910,6 +910,16 @@ section {
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+.education-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.education-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 }
 /* SWORD CURSOR */
 
