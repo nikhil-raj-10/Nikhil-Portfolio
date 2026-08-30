@@ -883,6 +883,33 @@ footer {
     .contact-socials {
     grid-template-columns: 1fr;
     }
+    /* MOBILE WIDTH FIX */
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-buttons {
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
 }
 /* SWORD CURSOR */
 
