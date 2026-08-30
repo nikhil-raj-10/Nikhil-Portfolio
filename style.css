@@ -883,6 +883,15 @@ footer {
     .contact-socials {
     grid-template-columns: 1fr;
     }
+    .education-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.education-card {
+    width: 100%;
+    box-sizing: border-box;
+}
     /* MOBILE WIDTH FIX */
 
 body {
