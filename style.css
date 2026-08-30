@@ -887,6 +887,21 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
 }
+.hero-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+.hero-buttons .btn {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 15px 6px;
+    font-size: 14px;
+    white-space: nowrap;
+}
 
 .education-card {
     width: 100%;
